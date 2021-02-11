@@ -11,6 +11,7 @@ Script is intended visually see what Jetson nano is transmitting and receiving b
 
 **Jetson Nano**
 
+
 Before you start using UART with this serial port, make sure you've disabled the serial console nvgetty service. You can find why to do that in the original article. Commands are:
 ```
 
@@ -37,6 +38,7 @@ Command to run script is
 ```
 **Analog Discovery 2**
 
+
 You need to download Waveforms software to view Analog Discovery 2 output.
 
 Link to Waveforms download
@@ -46,9 +48,11 @@ Once you've downloaded the software, on boot it will autodetect your device. At 
   
 **The Script**
 
+
 Transmits input from Waveforms on your computer to Jetson nano, then is echoed back to Waveforms. 
 
 **Pin Connections**
+
 
 Jetson to Analog Discovery 2 pin connections:
 
