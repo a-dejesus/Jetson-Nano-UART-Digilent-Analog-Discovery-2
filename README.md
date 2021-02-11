@@ -43,6 +43,8 @@ Once you've downloaded the software, on boot it will autodetect your device. At 
 
 Transmits input from Waveforms on your computer to Jetson nano, then is echoed back to Waveforms. 
 
+# Pin Connections
+
 Jetson to Analog Discovery 2 pin connections:
 
 pin 8  TXD -> dio 1 RXD     
