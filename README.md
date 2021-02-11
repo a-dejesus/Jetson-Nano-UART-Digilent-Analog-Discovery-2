@@ -1,9 +1,7 @@
 
 # UART Python GPIO output check program using Waveforms and Digilent Analog Discovery 2
 
-Simple python script using Jetson Nano UART GPIO header
-
-Digilent Analog Discovery 2 as a protocol analyzer. 
+Simple python script using Jetson Nano UART GPIO header and Digilent Analog Discovery 2 as a protocol analyzer. 
 
 This is an easier to implement version of the original code that's on JetsonHacks, readline is used instead of read, "q" to exit program. Original code displays single character, this code is able to enter more letters and doesn't display "b" that original does.
 
