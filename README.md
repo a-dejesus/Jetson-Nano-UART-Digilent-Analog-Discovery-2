@@ -17,7 +17,7 @@ Before you start using UART with this serial port, make sure you've disabled the
   
   $ udevadm trigger
   
-  # You may want to reboot instead
+  # reboot
 
 The script requires py-serial. Command to install:
 
