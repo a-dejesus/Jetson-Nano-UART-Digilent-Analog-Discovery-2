@@ -3,7 +3,7 @@
 
 Simple python script using Jetson Nano UART GPIO header and Digilent Analog Discovery 2 as a protocol analyzer. 
 
-This is an easier to implement version of the original code that's on JetsonHacks, readline is used instead of read, "q" to exit program. Original code displays single character, this code is able to enter more letters and doesn't display "b" that original does.
+This is an easier to implement version of the original code that's on JetsonHacks, readline is used instead of read, "q" to exit program. Original code displays single character, this code is able to enter more letters/words and doesn't display "b" that original does.
 
 Original Article on JetsonHacks:https://www.jetsonhacks.com/2019/10/10/jetson-nano-uart/
 
