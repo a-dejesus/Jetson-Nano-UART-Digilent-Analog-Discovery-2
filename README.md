@@ -9,10 +9,11 @@ Original Article on JetsonHacks:https://www.jetsonhacks.com/2019/10/10/jetson-na
 
 Script is intended visually see what Jetson nano is transmitting and receiving before implementing communication with another device.
 
-# Jetson Nano
+**Jetson Nano**
 
 Before you start using UART with this serial port, make sure you've disabled the serial console nvgetty service. You can find why to do that in the original article. Commands are:
 ```
+
   $ systemctl stop nvgetty
   
   $ systemctl disable nvgetty
@@ -34,7 +35,7 @@ Command to run script is
   $ sudo python3 uart_mod.py
   
 ```
-# Analog Discovery 2
+**Analog Discovery 2**
 
 You need to download Waveforms software to view Analog Discovery 2 output.
 
@@ -43,17 +44,20 @@ https://mautic.digilentinc.com/waveforms-download
 
 Once you've downloaded the software, on boot it will autodetect your device. At welcome screen, go to "Protocol" button. Set Rate to 115.2k and Ending to Line Feed.
   
-# The Script 
+**The Script**
 
 Transmits input from Waveforms on your computer to Jetson nano, then is echoed back to Waveforms. 
 
-# Pin Connections
+**Pin Connections**
 
 Jetson to Analog Discovery 2 pin connections:
 
-pin 8  TXD -> dio 1 RXD     
-pin 10 RXD  ->  dio 0 TXD
+```
 
+  pin 8  TXD  ->  dio 1 RXD     
+  pin 10 RXD  ->  dio 0 TXD
+  
+```
 
 
 
