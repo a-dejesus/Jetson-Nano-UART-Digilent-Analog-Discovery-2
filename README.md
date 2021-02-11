@@ -4,7 +4,7 @@ simple python script using Jetson Nano UART GPIO header
 
 this script uses the Digilent Analog Discovery 2 as a protocol analyzer 
 
-                        pin connection
+pin connection
 
 GPIO pinout for jetson     connected to        GPIO pinout for Analog Discovery 2
     pin 8  TXD                  ->                 dio 1 RXD
