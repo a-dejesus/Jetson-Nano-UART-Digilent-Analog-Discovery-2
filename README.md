@@ -12,7 +12,7 @@ Script is intended visually see what Jetson nano is transmitting and receiving b
 # Jetson Nano
 
 Before you start using UART with this serial port, make sure you've disabled the serial console nvgetty service. You can find why to do that in the original article. Commands are:
-
+```
   $ systemctl stop nvgetty
   
   $ systemctl disable nvgetty
@@ -20,16 +20,20 @@ Before you start using UART with this serial port, make sure you've disabled the
   $ udevadm trigger
   
   reboot
-
+  
+```
 The script requires py-serial. Command to install:
+```
 
   $ sudo apt-get install python3-serial
-
+  
+```
 Command to run script is
+```
 
   $ sudo python3 uart_mod.py
   
-  
+```
 # Analog Discovery 2
 
 You need to download Waveforms software to view Analog Discovery 2 output.
