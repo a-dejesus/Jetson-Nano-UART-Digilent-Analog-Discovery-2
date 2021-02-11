@@ -1,5 +1,5 @@
 
-# UART Python GPIO output check program using Waveforms and Digilent Analog Discovery 2
+# UART Python GPIO output check script using Waveforms and Digilent Analog Discovery 2
 
 Simple python script using Jetson Nano UART GPIO header and Digilent Analog Discovery 2 as a protocol analyzer. 
 
