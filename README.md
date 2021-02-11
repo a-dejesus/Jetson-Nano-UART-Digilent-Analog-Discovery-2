@@ -41,9 +41,9 @@ Command to run script is
 
 You need to download Waveforms software to view Analog Discovery 2 output.
 
-Link to Waveforms download: https://mautic.digilentinc.com/waveforms-download 
+Click on the link and fill out the form and hit "Submit" and the download will prompt after.
 
-Fill out the form and hit "Submit" and the download will prompt after
+Link to Waveforms download: https://mautic.digilentinc.com/waveforms-download 
 
 Once you've downloaded the software, on boot it will autodetect your device. At welcome screen, go to "Protocol" button. Set Rate to 115.2k and Ending to Line Feed.
   
