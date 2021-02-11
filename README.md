@@ -9,7 +9,7 @@ This is an easier to implement version of the original code that's on JetsonHack
 
 Original Article on JetsonHacks:https://www.jetsonhacks.com/2019/10/10/jetson-nano-uart/
 
-I made this to visually see what my Jetson nano was transmitting and receiving before I started to implement communication with another device.
+Script is intended visually see what Jetson nano is transmitting and receiving before implementing communication with another device.
 
 Before you start using UART with this serial port, make sure you've disabled the serial console nvgetty service. You can find why to do that in the original article. Commands are:
 
@@ -41,7 +41,7 @@ Once you've downloaded the software, on boot it will autodetect your device. At 
   
 This script 
 
-Transmits input from waveforms on your computer to the Jetson nano, then is echoed back to waveforms. 
+Transmits input from Waveforms on your computer to Jetson nano, then is echoed back to Waveforms. 
 
 Jetson to Analog Discovery 2 pin connections:
 
