@@ -16,9 +16,7 @@ Before you start using UART with this serial port, make sure you've disabled the
 ```
 
   $ systemctl stop nvgetty
-  
   $ systemctl disable nvgetty
-  
   $ udevadm trigger
   
   reboot
